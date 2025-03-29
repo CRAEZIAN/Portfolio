@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html"><img src="images/LOGOBROWN.png" alt="LogoBrown"></a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#quiz">Quizzes</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="sectionA">
+      <div class="section__container" id="about">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Medge<br>Jhel M. Guillermo</span>
+          </h1>
+          <p class="description">
+            Welcome to my portfolio! I am Medge Jhel M. Guillermo, a 21 Year old, third year Information-Technology student at Cavite State University-Silang Campus
+          </p>
+          <div class="action__btns">
+              <a href="https://www.facebook.com/medge.jhel.guillermo/"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/crazian_art/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/CRAEZIAN"><i class="fa-brands fa-github"></i></a>
+              <a href="about.html" class="seemore"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="image">
+          <img>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="Quizzes" id="quiz">  <br> <br> <br>
+      <div class="gallery-container" >
+        <h1>Quizzes</h1>
+    
+        <div class="gallery">
+          <!-- Large Main Image -->
+          <div class="large-image">
+            <img src="images/QUIZ 1.jpeg" alt="Main Image" id="main-img">
+          </div>
+    
+          <!-- Grid of Smaller Images -->
+          <div class="grid-container">
+            <img src="images/QUIZ 2.jpeg" alt="Quiz Image" class="thumbnail">
+            <img src="images/PRE-TEST 1.jpeg" alt="Quiz Image" class="thumbnail">
+            <img src="images/POST-TEST 2.jpeg" alt="Quiz Image" class="thumbnail">
+            <img src="images/POST-TEST 4.jpeg" alt="Quiz Image" class="thumbnail">
+          </div>
+        </div>
+    
+        <!-- Lightbox (Hidden Initially) -->
+        <div id="lightbox">
+          <span class="close">X</span>
+          <img id="lightbox-img" src="" alt="Enlarged Image">
+        </div>
+    
+        <a href="quiz.html" class="see-more">SEE MORE</a>
+      </div> <br><br><br>
+    </section>
+    
+
+    <section class="projectpage" id="project">
+      <h1 class="titulo">PROJECT</h1>
+      <div class="project">
+
+       
+        <div class="slide">
+
+            <div class="projitem"
+                style="background-image: url(images/login.png);">
+                <div class="projcontent">
+                    <div class="name">Log In Page</div>
+                    <div class="des">This is where a user could log in on their accounts</div>
+                    <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/registration.png);">
+                <div class="projcontent">
+                  <div class="name">Registration page</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/terms.png);">
+                <div class="projcontent">
+                  <div class="name">Terms & Condition</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/2fa.png);">  
+                <div class="projcontent">
+                  <div class="name">LogIn page</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/home.png);">
+                <div class="projcontent">
+                  <div class="name">LogIn page</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/charts.png);">
+                <div class="projcontent">
+                  <div class="name">LogIn page</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/searchpage.png);">
+                <div class="projcontent">
+                  <div class="name">LogIn page</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/suggbox.png);">
+                <div class="projcontent">
+                  <div class="name">LogIn page</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+            <div class="projitem"
+                style="background-image: url(images/lyricpage.png);">
+                <div class="projcontent">
+                  <div class="name">LogIn page</div>
+                  <div class="des">This is where a user could log in on their</div>
+                  <a href="Proj.html">SEE MORE</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="projbutton">
+            <button class="prev"><i
+                    class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+    <script>
+      let next = document.querySelector('.next')
+      let prev = document.querySelector('.prev')
+
+      next.addEventListener('click', function(){
+          let items = document.querySelectorAll('.projitem')
+          document.querySelector('.slide').appendChild(items[0])
+      })
+
+      prev.addEventListener('click', function(){
+          let items = document.querySelectorAll('.projitem')
+          document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+      })
+    </script>
+    </section>
+
+    <footer class="contact" id="contact">
+      <div class="container">
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              dolorum adipisci recusandae praesentium dicta!
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>#25 Purok 1, Iba Silang, Cavite</p>
+              </div>
+              <div class="information">
+                <i class="fa-solid fa-envelope"></i>
+                <p>sc.medgejhel.guillermo@cvsu.edu.ph</p>
+              </div>
+              <div class="information">
+                <i class="fa-solid fa-phone"></i>
+                <p>+63-930-348-9064</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/medge.jhel.guillermo/"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/crazian_art/"><i class="bx bxl-instagram"></i></a>
+                <a href="https://github.com/CRAEZIAN"><i class="bx bxl-github"></i></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+  
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <script src="app.js"></script>
+    </footer>
+
+      <div class="foot">
+        <div id="footabout" class="about">
+          <p>Copyright &copy; 2025 by Medge | All Right Reserved.</p>
+        </div>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--   *****   Isotope Filter Link   *****  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript">
+      var $galleryContainer = $('.galims').isotope({
+        itemSelector: '.item',
+          layoutMode: 'fitRows'
+      })
+
+      $('.sort .button').on('click', function(){
+        $('.sort .button').removeClass('active');
+        $(this).addClass('active');
+
+        var value = $(this).attr('data-filter');
+        $galleryContainer.isotope({
+          filter: value 
+        })
+      })
+    </script>
+
+  </body>
+</html>
