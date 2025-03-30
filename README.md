@@ -1,2 +1,0 @@
-# Portfolio
-Guillermo's Portfolio
