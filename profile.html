@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+</head>
+<body>
+
+  
+  
+<div class="profile-container">
+  <div class="cover-photo">
+    <a href="index.html" class="back"><i class="fa-solid fa-arrow-left"></i></a>
+    <img>
+    <div class="profile-pic">
+      <img>
+    </div>
+  </div>
+
+  <div class="profile-info">
+    <h1>Medge Jhel M. Guillermo</h1>
+    <p>Web Developer | Tech Enthusiast | Coffee Lover</p>
+  </div>
+
+  <div class="profile-nav">
+    <button class="tab-btn active" onclick="showTab('posts')">About</button>
+    <button class="tab-btn" onclick="showTab('about')">more</button>
+  </div>
+
+  <div class="tab-content" id="posts">
+    <div class="post">What Can I Offer?</div>
+    <div class="post">"I am a versatile creative and tech enthusiast. <br>I specialize in web development, programming, graphic design, and art. <br>From building responsive websites to designing visually striking graphics, <br>
+      I bring both logic and creativity to every project. <br>Whether you need a clean-coded system, a polished UI/UX design, or eye-catching visuals, <br>I’m here to help bring your ideas to life."
+
+    </div>
+  </div>
+
+  <div class="tab-content" id="about" style="display:none;">
+    <p><strong>Location:</strong> Silang, Philippines</p>
+    <p><strong>Email:</strong> medgejhel@gmail.com </p>
+    <p><strong>CvSU Email:</strong> medgejhel.guillermo@cvsu.edu.ph </p>
+    <a href="images/guillermo resume.pdf" download class="download-btn">
+      <i class="fa-solid fa-download"></i> <p>Download Resume</p>
+    </a>
+    
+  </div>
+
+</div>
+
+<script>
+  function showTab(tabId) {
+    const contents = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-btn');
+
+    contents.forEach(content => content.style.display = 'none');
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    document.getElementById(tabId).style.display = 'block';
+    event.target.classList.add('active');
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: fontys;
+  src: url(fonts/The\ Baby\ Moon.otf);
+}
+@font-face {
+  font-family: fontz;
+  src: url(fonts/AR\ Techni.ttf);
+}
+:root {
+  --primary-color: #373D20;
+  --primary-color-dark: #606C38;
+  --secondary-color: #8B5E34;
+  --text-dark: #582f0e;
+  --text-light: #fff5e3;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fontz;
+  }
+
+  body {
+    background-color: var(--text-light);
+  }
+  
+  .profile-container {
+    width: 95%;
+    margin: 0 auto;
+    background-color: var(--primary-color-dark);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0px;
+    transition: 0.5s;
+    text-decoration: none;
+    text-decoration-color: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 1;
+  }
+a.back{
+    color: var(--text-light);
+    background-color: var(--primary-color-dark);
+  }
+  .cover-photo {
+    width: 100%;
+    height: 500px;
+    background: url('images/BGEDIT.png') no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid var(--text-light);
+    position: absolute;
+    bottom: -75px;
+    left: 30px;
+    background: url('images/uneditedprof.jpeg') no-repeat center center;
+    background-size: cover;
+  }
+
+  .profile-info {
+    padding: 100px 30px 20px;
+  }
+
+  .profile-info h1 {
+    color: var(--text-light);
+    font-size: 38px;
+  }
+
+  .profile-info p {
+    color: var(--text-light);
+    font-size: 20px;
+  }
+
+  .profile-nav {
+    display: flex;
+    background-color: var(--primary-color);
+  }
+
+  .profile-nav button {
+    flex: 1;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text-light);
+  }
+
+  .profile-nav button.active {
+    color: var(--text-light);
+    border-bottom: 3px solid var(--text-light);
+  }
+
+  .tab-content {
+    padding: 20px;
+    color: var(--text-light);
+    font-size: 2rem;
+  }
+
+  .post {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .download-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: var(--text-light);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+  .download-btn p{
+    color: var(--text-light);
+    margin-left: 30px;
+  }

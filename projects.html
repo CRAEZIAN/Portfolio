@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Medge Guillermo</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .project-section {
+      padding: 60px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .project-title {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #fff5e3;
+    }
+
+    .Thetitle{
+      font-size: 7rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #fff5e3;
+      margin-top: 60px ;
+      font-family: fontys;
+    }
+
+    .slider {
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .prev { left: 10px; }
+    .next { right: 10px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="index.html"><img src="images/LOGOBROWN.png" alt="LogoBrown"></a></div>
+      <label for="check" class="checkbox"><i class="ri-menu-line"></i></label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#quiz">Quizzes</a></li>
+        <li><a href="index.html#project">Project</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  
+  <h2 class="Thetitle">Projects</h2>
+
+  <!-- Project 1 -->
+  <section class="project-section" id="project1">
+    <h2 class="project-title">BlackInk - ecommerce website</h2>
+    <div class="slider" data-project="1">
+      <div class="slides">
+        <img src="projects/BLAKINK/1.png" alt="Home UI Slide 1">
+        <img src="projects/BLAKINK/2.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/3.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/4.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/5.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/6.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/7.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/8.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/9.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/10.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/11.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/12.png" alt="Home UI Slide 2">
+        <img src="projects/BLAKINK/13.png" alt="Home UI Slide 2">
+      </div>
+      <button class="nav-btn prev" onclick="moveSlide(-1, 1)">&#10094;</button>
+      <button class="nav-btn next" onclick="moveSlide(1, 1)">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Project 2 -->
+  <section class="project-section" id="project2">
+    <h2 class="project-title">CvSU SC Enrollment System - unfinished</h2>
+    <div class="slider" data-project="2">
+      <div class="slides">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/1.png" alt="Enrollment Slide 1">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/2.png" alt="Enrollment Slide 2">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/about us content 1.png" alt="Enrollment Slide 2">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/about us content 2.png" alt="Enrollment Slide 2">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/about us footer.png" alt="Enrollment Slide 2">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/about us nav bar + content.png" alt="Enrollment Slide 2">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/sign in.png" alt="Enrollment Slide 2">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/GUI FOR PROJECT ENROLLMENT (2)/second courser (2).jpg" alt="Enrollment Slide 2">
+        <img src="projects/GUI FOR PROJECT ENROLLMENT (1)/GUI FOR PROJECT ENROLLMENT (2)/second courser.jpg" alt="Enrollment Slide 2">
+      </div>
+      <button class="nav-btn prev" onclick="moveSlide(-1, 2)">&#10094;</button>
+      <button class="nav-btn next" onclick="moveSlide(1, 2)">&#10095;</button>
+    </div>
+  </section>
+
+<!-- Project 3 -->
+<section class="project-section" id="project3">
+  <h2 class="project-title">Number Sorting System</h2>
+  <div class="slider" data-project="3"> <!-- CHANGED -->
+    <div class="slides">
+      <img src="projects/heap/a1.png" alt="heap Slide 1">
+      <img src="projects/heap/a2.png" alt="heap Slide 2">
+      <img src="projects/heap/a3.png" alt="heap Slide 2">
+      <img src="projects/heap/a4.png" alt="heap Slide 2">
+    </div>
+    <button class="nav-btn prev" onclick="moveSlide(-1, 3)">&#10094;</button> <!-- CHANGED -->
+    <button class="nav-btn next" onclick="moveSlide(1, 3)">&#10095;</button> <!-- CHANGED -->
+  </div>
+</section>
+
+<!-- Project 4 -->
+<section class="project-section" id="project4">
+  <h2 class="project-title">Rirics - Music Lyrics Website</h2>
+  <div class="slider" data-project="4"> <!-- CHANGED -->
+    <div class="slides">
+      <img src="projects/RIRICS_GUI/login.png" alt="rirics Slide 1">
+      <img src="projects/RIRICS_GUI/registration.png"  alt="rirics Slide 2">
+      <img src="projects/RIRICS_GUI/home.png" alt="rirics Slide 3">
+      <img src="projects/RIRICS_GUI/charts.png" alt="rirics Slide 4">
+      <img src="projects/RIRICS_GUI/2fa.png"  alt="rirics Slide 5">
+      <img src="projects/RIRICS_GUI/lyricpage.png" alt="rirics Slide 6">
+      <img src="projects/RIRICS_GUI/searchpage.png" alt="rirics Slide 7">
+      <img src="projects/RIRICS_GUI/suggbox.png" alt="rirics Slide 8">
+      <img src="projects/RIRICS_GUI/terms.png" alt="Enrollment Slide 9">
+    </div>
+    <button class="nav-btn prev" onclick="moveSlide(-1, 4)">&#10094;</button> <!-- CHANGED -->
+    <button class="nav-btn next" onclick="moveSlide(1, 4)">&#10095;</button> <!-- CHANGED -->
+  </div>
+</section>
+<!-- Project 5 -->
+<section class="project-section" id="project4">
+  <h2 class="project-title">Hotel Management System</h2>
+  <div class="slider" data-project="5"> <!-- CHANGED -->
+    <div class="slides">
+      <img src="projects/hotel/a.png" alt="rirics Slide 1">
+      <img src="projects/hotel/b.png"  alt="rirics Slide 2">
+      <img src="projects/hotel/c.png" alt="rirics Slide 3">
+      <img src="projects/hotel/d.png" alt="rirics Slide 4">
+      <img src="projects/hotel/e.png" alt="rirics Slide 1">
+      <img src="projects/hotel/f.png"  alt="rirics Slide 2">
+      <img src="projects/hotel/g.png" alt="rirics Slide 3">
+      <img src="projects/hotel/h.png" alt="rirics Slide 4">
+      <img src="projects/hotel/i.png" alt="rirics Slide 1">
+      <img src="projects/hotel/j.png"  alt="rirics Slide 2">
+      <img src="projects/hotel/k.png" alt="rirics Slide 3">
+      <img src="projects/hotel/l.png" alt="rirics Slide 4">
+    </div>
+    <button class="nav-btn prev" onclick="moveSlide(-1, 5)">&#10094;</button> <!-- CHANGED -->
+    <button class="nav-btn next" onclick="moveSlide(1, 5)">&#10095;</button> <!-- CHANGED -->
+  </div>
+</section>
+<!-- Project 6 -->
+<section class="project-section" id="project4">
+  <h2 class="project-title">Rirics - Music Lyrics Website</h2>
+  <div class="slider" data-project="6"> <!-- CHANGED -->
+    <div class="slides">
+      <img src="projects/port1/A.png" alt="rirics Slide 1">
+      <img src="projects/port1/AC.png" alt="rirics Slide 1">
+      <img src="projects/port1/G.png" alt="rirics Slide 1">
+      <img src="projects/port1/GC.png" alt="rirics Slide 1">
+      <img src="projects/port1/H.png" alt="rirics Slide 1">
+      <img src="projects/port1/HC.png" alt="rirics Slide 1">
+      <img src="projects/port1/S.png" alt="rirics Slide 1">
+      <img src="projects/port1/Sc.png" alt="rirics Slide 1">
+    </div>
+    <button class="nav-btn prev" onclick="moveSlide(-1, 6)">&#10094;</button> <!-- CHANGED -->
+    <button class="nav-btn next" onclick="moveSlide(1, 6)">&#10095;</button> <!-- CHANGED -->
+  </div>
+</section>
+<!-- Project 7 -->
+<section class="project-section" id="project4">
+  <h2 class="project-title">Profile Card</h2>
+  <div class="slider" data-project="7"> <!-- CHANGED -->
+    <div class="slides">
+      <img src="projects/PROFCARD/b1.png" alt="rirics Slide 1">
+    </div>
+    <button class="nav-btn prev" onclick="moveSlide(-1, 7)">&#10094;</button> <!-- CHANGED -->
+    <button class="nav-btn next" onclick="moveSlide(1, 7)">&#10095;</button> <!-- CHANGED -->
+  </div>
+</section>
+
+  <!-- Add more project sections here -->
+  
+  <footer class="contact">
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">Contact me:</p>
+          <div class="info">
+            <div class="information"><i class="fa-solid fa-location-dot"></i><p>#25 Purok 1, Iba Silang, Cavite</p></div>
+            <div class="information"><i class="fa-solid fa-envelope"></i><p>sc.medgejhel.guillermo@cvsu.edu.ph</p></div>
+            <div class="information"><i class="fa-solid fa-phone"></i><p>+63-930-348-9064</p></div>
+          </div>
+          <div class="social-media">
+            <p>Connect with us:</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/medge.jhel.guillermo/"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/crazian_art/"><i class="bx bxl-instagram"></i></a>
+              <a href="https://github.com/CRAEZIAN"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container"><input type="text" name="name" class="input"/><label>Username</label><span>Username</span></div>
+            <div class="input-container"><input type="email" name="email" class="input"/><label>Email</label><span>Email</span></div>
+            <div class="input-container"><input type="tel" name="phone" class="input"/><label>Phone</label><span>Phone</span></div>
+            <div class="input-container textarea"><textarea name="message" class="input"></textarea><label>Message</label><span>Message</span></div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="foot">
+    <div id="footabout" class="about">
+      <p>Copyright &copy; 2025 by Medge | All Right Reserved.</p>
+    </div>
+  </div>
+
+  <script>
+  const currentSlide = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}; // ADDED keys for 3 and 4
+
+function moveSlide(step, projectId) {
+  const slider = document.querySelector(`.slider[data-project="${projectId}"]`);
+  const slides = slider.querySelector('.slides');
+  const images = slides.querySelectorAll('img');
+  const total = images.length;
+
+  currentSlide[projectId] += step;
+
+  if (currentSlide[projectId] >= total) currentSlide[projectId] = 0;
+  if (currentSlide[projectId] < 0) currentSlide[projectId] = total - 1;
+
+  slides.style.transform = `translateX(-${currentSlide[projectId] * 100}%)`;
+}
+  </script>
+</body>
+</html>
